@@ -1,0 +1,13 @@
+const express = require("express");
+const app=express();
+
+// app.get('/',( req,res) =>{
+//     res.send("Hello World");
+// });
+//  const user=require("./api/routers/users/user");
+
+
+const PORT=3001;
+ app.listen(PORT,()=>{
+        console.log(`Server is running on ${PORT}`);
+ });
